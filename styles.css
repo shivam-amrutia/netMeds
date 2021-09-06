@@ -208,5 +208,9 @@
     display: grid !important;
     justify-content: center;
   }
+
+  .card{
+    height: 500px;
+  }
 }
 
