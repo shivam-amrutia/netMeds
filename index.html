@@ -1,0 +1,1079 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <title>Symptoms Checker</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top slide-in-left" id="nav">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">NetMeds</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-light" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="wrapper">
+      <main>
+        <section class="section parallax bg1">
+          <div class="text-center">
+            <img src="logo.png" alt="">
+            <h1>NetMeds</h1>
+          </div>
+        </section>
+      </main>
+
+      <div class="container">
+        <h1 class="heading">Ear, Nose, Throat Problems</h1>
+        <hr />
+        <div class="oneRow" data-aos="zoom-in-down">
+          <div class="card text-center my-5" style="width: 18rem">
+            <img src="Flu-Cold.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Cold and Flu</h5>
+              <hr />
+              <p class="card-text">
+                The common cold, including chest cold and head cold, and
+                seasonal flu are caused by viruses.
+              </p>
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#mod1"
+              >
+                Read more
+              </button>
+            </div>
+          </div>
+
+          <div class="card text-center my-5" style="width: 18rem">
+            <img src="fever.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Fever</h5>
+              <hr />
+              <p class="card-text">
+                A fever is a higher-than-normal body temperature, one of the body's natural responses to infection. A low-grade fever isn't usually a cause for concern, but a temperature 102°F and above should be treated.
+              </p>
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#mod2"
+              > 
+              Read more
+            </button>
+            </div>
+          </div>
+
+          <div class="card text-center my-5" style="width: 18rem">
+            <img src="cough.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Dry cough</h5>
+              <hr />
+              <p class="card-text">
+                A cough is body's way of responding when something irritates your throat. An irritant stimulates nerves that send a message to your brain which tells muscles in your chest to push air out of your lungs.
+              </p>
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#mod3"
+              >
+                Read more
+              </button>
+            </div>
+          </div>
+
+          <div class="card text-center my-5" style="width: 18rem">
+            <img src="ear.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Ear pain</h5>
+              <hr />
+              <p class="card-text">
+                Otalgia (ear pain) is a common presentation in the primary care setting with many diverse causes. Pain that originates from the ear is called primary otalgia, and the most common causes are otitis media and otitis externa.
+              </p>
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#mod4"
+              >
+                Read more
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <h1 class="heading">Cardiac problems and Back pain</h1>
+        <hr />
+        <div class="oneRow">
+          <div class="card text-center my-5" style="width: 18rem">
+            <img src="chestpain.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Chest Discomfort</h5>
+              <hr />
+              <p class="card-text">
+                Pressure, fullness, burning or tightness in your chest. Crushing or searing pain that radiates to your back, neck, jaw, shoulders, and one or both arms.
+              </p>
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#mod5"
+              >
+                Read more
+              </button>
+            </div>
+          </div>
+
+          <div class="card text-center my-5" style="width: 18rem">
+            <img src="heart.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Irregular Heart Beat</h5>
+              <hr />
+              <p class="card-text">
+                An arrhythmia is an uneven heartbeat. It means your heart is out of its usual rhythm. It may feel like your heart skipped a beat, added a beat, or is "fluttering."
+              </p>
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#mod6"
+              >
+                Read more
+              </button>
+            </div>
+          </div>
+
+          <div class="card text-center my-5" style="width: 18rem">
+            <img src="back1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Back Pain</h5>
+              <hr />
+              <p class="card-text">
+                Conditions commonly linked to back pain include: Muscle or ligament strain. Repeated heavy lifting or a sudden awkward movement can strain back muscles and spinal ligaments.
+              </p>
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#mod7"
+              >
+                Read more
+              </button>
+            </div>
+          </div>
+
+          <div class="card text-center my-5" style="width: 18rem">
+            <img src="breath.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Breath Shortness</h5>
+              <hr />
+              <p class="card-text">
+                Shortness of breath — known medically as dyspnea — is often described as an intense tightening in the chest, air hunger, difficulty breathing, breathlessness or a feeling of suffocation.
+              </p>
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#mod8"
+              >
+                Read more
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <h1 class="heading">Joint pain and other issues</h1>
+        <hr />
+        <div class="oneRow">
+          <div class="card text-center my-5" style="width: 18rem">
+            <img src="wrist.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">ankle and wrist pain</h5>
+              <hr />
+              <p class="card-text">
+                The excess uric acid can be deposited in the joints, resulting in pain and swelling. This pain frequently occurs in the knees, ankles, wrists, and feet.
+              </p>
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#mod9"
+              >
+                Read more
+              </button>
+            </div>
+          </div>
+
+          <div class="card text-center my-5" style="width: 18rem">
+            <img src="knee.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Knee pain</h5>
+              <hr />
+              <p class="card-text">
+                Knee pain can be caused by a sudden injury, an overuse injury, or by an underlying condition, such as arthritis. Treatment will vary depending on the cause.
+              </p>
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#mod10"
+              >
+                Read more
+              </button>
+            </div>
+          </div>
+
+          <div class="card text-center my-5" style="width: 18rem">
+            <img src="pimples.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Pimples</h5>
+              <hr />
+              <p class="card-text">
+                A pimple is a small pustule or papule. Pimples develop when sebaceous glands, or oil glands, become clogged and infected, leading to swollen, red lesions filled with pus.
+
+              </p>
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#mod11"
+              >
+                Read more
+              </button>
+            </div>
+          </div>
+
+          <div class="card text-center my-5" style="width: 18rem">
+            <img src="headache.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Headache</h5>
+              <hr />
+              <p class="card-text">
+                Headaches are a very common condition that most people will experience many times during their lives. The main symptom of a headache is a pain in your head or face. 
+              </p>
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#mod12"
+              >
+                Read more
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ................................................content stats here.................................................... -->
+      <div class="container" id="content">
+        <div class="content">
+          <h1>How do I know if I’m sick?</h1>
+          <div class="text">
+            <p>
+              Using an online symptom checker is simple. For instance, you might be a 45 year old woman from the UK who is currently experiencing headache, a fever and a sore throat.
+            </p>
+            <p> 
+              Inputting this information into the symptom checker will give you some likely ‘common’ diagnoses. These include: strep throat, tonsillitis, sinusitis and flu.
+            </p>
+            <p>
+              But the self-diagnosis calculator will also give a list of rarer but more serious diagnoses in a tab called ‘red flags’. Here you’ll find links to our patient information leaflets about much less common conditions, such as temporal arteritis, meningitis and toxic shock syndrome. If, after reading the information, you think one of these serious conditions could apply to you, you should seek medical advice immediately.
+            </p>
+          </div>
+        </div>
+
+        <div class="content">
+          <h1>What’s the difference between a sign and a symptom?</h1>
+          <div class="text">
+            <p>
+              ‘Sign’ and ‘symptom’ are often used interchangeably, but if we’re going to be pedantic, they do actually mean different things.
+            </p>
+            <p> 
+              If you’re feeling ill it might not be immediately obvious to somebody looking at you that you’re sick. For instance, if you’re experiencing pain, fatigue or dizziness, only you know what that feels like. These are symptoms - which can only be described by the person experiencing them.
+            </p>
+            <p>
+              Signs, on the other hand, can be observed by an outsider too. For example, indicators to other people that you’re unwell, such as: sweating, sneezing or looking pale. Or, things that can be measured, such as a high blood pressure reading or a fever determined with a thermometer, count as signs.
+            </p>
+          </div>
+        </div>
+
+        <div class="content">
+          <h1>How safe and accurate are symptom checkers?</h1>
+          <div class="text">
+            <p>
+              Most doctors agree that online symptom checkers are can encourage people with life-threatening symptoms to seek urgent attention, potentially saving lives. They’re also useful for reassuring patients who may have sought urgent care when they didn’t need to.
+            </p>
+            <p> 
+              However, one study suggested that online symptom checkers tend to be over-cautious, which could lead to an increase in unnecessary appointments, rather than a reduction. Another piece of research from the United States found that doctors are twice as likely to make a correct diagnosis as online symptom checkers.
+            </p>
+            <p>
+              While these self diagnosis tools can certainly be useful for determining whether a trip to hospital is necessary, they can’t match the expertise of an experienced health professional.
+            </p>
+          </div>
+        </div>
+
+        <div class="content">
+          <h3>Disclaimer</h3>
+          <div class="text">
+            <p>
+              This symptom checker is provided by netmeds Healthcare Limited. netmeds Symptom Checker ("netmeds") and any content accessed through netmeds is for informational purposes only, and is not intended to constitute professional medical advice, diagnosis or treatment. EMIS shall be in no way responsible for your use of netmeds, or any information that you obtain from netmeds. You acknowledge that when using netmeds you do so at your own choice and in agreement with this disclaimer. Do not ignore or delay obtaining professional medical advice because of information accessed through netmeds. Seek immediate medical assistance or call your doctor for all medical emergencies. By using netmeds you agree to the terms and conditions.
+            </p>
+          </div>
+        </div>
+
+      </div>
+        
+      <div class="footer">
+        <div class="social">
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-google"></a>
+          <a href="#" class="fa fa-youtube"></a>
+          <a href="#" class="fa fa-instagram"></a>
+        </div>
+        <div class="links">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+            <li><a href="about.html">About us</a></li>
+          </ul>
+        </div>
+        <div class="cr">
+          <p>
+            NetMeds &copy;
+          </p>
+          <br>
+          <p>  
+            &nbsp;all rights reserved to NetMeds.co
+          </p>
+        </div>
+      </div>
+     
+     
+    </div>
+
+     <!-- .........................................here comes the modals................................................ -->
+     
+    <div
+      id="mod1"
+      class="modal fade"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div
+        class="
+          modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg
+        "
+        >
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Cold and Flu</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <h3>Symptoms</h3>
+            <p> 
+              The symptoms of flu can include fever or feeling feverish/chills, cough, sore throat, runny or stuffy                      nose, muscle or body aches, headaches and fatigue (tiredness). Cold symptoms are usually milder                      than the symptoms of flu. People with colds are more likely to have a runny or stuffy nose
+            </p>
+            <hr>
+            <h3>Remedies</h3>
+            <p>Stay hydrated. Water, juice, clear broth or warm lemon water with honey helps loosen congestion                       and prevents dehydration.</p>
+            <ul>
+              <li>Rest. Your body needs rest to heal.</li>
+              <li>Soothe a sore throat.</li>
+              <li>Combat stuffiness.</li>
+              <li>Relieve pain.</li>
+              <li>Sip warm liquids.</li>
+              <li>Try honey.</li>
+              <li>Add moisture to the air.</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      id="mod2"
+      class="modal fade"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div
+        class="
+          modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg
+        "
+        >
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Fever</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <h3>Symptoms</h3>
+            <ul>
+              <li>Elevated temperature (above 100.4°).</li>
+              <li>Chills, shivering, shaking.</li>
+              <li>Body aches and headaches.</li>
+              <li>Fatigue (tiredness).</li>
+              <li>Intermittent or constant sweating.</li>
+              <li>Flushed complexion or hot skin.</li>
+            </ul>
+            <hr>
+            <h3>Remedies</h3>
+            Take paracetamol or ibuprofen in appropriate doses to help bring your temperature down.
+            <ul>
+              <li>Drink plenty of fluids, particularly water.</li>
+              <li>Avoid alcohol, tea and coffee as these drinks can cause slight dehydration.</li>
+              <li>Sponge exposed skin with tepid water.</li>
+              <li>Avoid taking cold baths or showers.</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      id="mod3"
+      class="modal fade"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div
+        class="
+          modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg
+        "
+        >
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Dry Cough</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <h3>Symptoms</h3>
+            <p>A runny or stuffy nose.A feeling of liquid running down the back of your throat (postnasal drip)</p>
+            <ul>
+              <li>Frequent throat clearing and sore throat.</li>
+              <li>Hoarseness.</li>
+              <li>Wheezing and shortness of breath.</li>
+              <li>Heartburn or a sour taste in your mouth.</li>
+              <li>Rarely, coughing up blood.</li>
+            </ul>
+            <hr>
+            <h3>Remedies</h3>
+            <ul>
+              <li>Honey tea</li>
+              <li>Ginger may ease a dry or asthmatic cough</li>
+              <li>Fluids</li>
+              <li>Steam</li>
+              <li>Marshmallow root</li>
+              <li>Salt-water gargle</li>
+              <li>Bromelain</li>
+              <li>Thyme</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      id="mod4"
+      class="modal fade"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div
+        class="
+          modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg
+        "
+        >
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Ear Pain</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <h3>Symptoms</h3>
+            <p>
+              Earache or either a sharp, sudden pain or a dull, continuous pain
+            </p>
+            <ul>
+              <li>A sharp stabbing pain with immediate warm drainage from the ear canal.</li>
+              <li>A feeling of fullness in the ear.</li>
+              <li>Nausea.</li>
+              <li>Muffled hearing.</li>
+              <li>Ear drainage.</li>
+            </ul>
+            <hr>
+            <h3>Remedies</h3>
+            <ul>
+              <li>A cool or warm compress</li>
+              <li>A heating pad</li>
+              <li>Over-the-counter ear drops with pain relievers</li>
+              <li>Chew gum</li>
+              <li>Sleep upright</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      id="mod5"
+      class="modal fade"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div
+        class="
+          modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg
+        "
+        >
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Chest Discomfort</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <h3>Symptoms</h3>
+            <ul>
+              <li>Pressure, fullness, burning or tightness in your chest</li>
+              <li>Crushing or searing pain that radiates to your back, neck, jaw, shoulders, and one or both arms</li>
+              <li>Pain that lasts more than a few minutes, gets worse with activity, goes away and comes back, or                         varies in intensity</li>
+              <li>Shortness of breath</li>
+              <li>Cold sweats</li>
+              <li>Dizziness or weakness</li>
+              <li>Nausea or vomiting</li>
+            </ul>
+            <hr>
+            <h3>Remedies</h3>
+            <ul>
+              <li> Almonds are an alkaline food and in theory, they may help to soothe and neutralize acid in the esophagus.</li>
+              <li>Gas is a common cause of chest pain. A hot or warm drink may help rev up your digestive system and ease gas and bloating.</li>
+              <li> Applying a cold pack several times a day to the affected area may help reduce inflammation and ease pain.</li>
+              
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      id="mod6"
+      class="modal fade"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div
+        class="
+          modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg
+        "
+        >
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Irregular Heart Beat</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <h3>Symptoms</h3>
+            <p>
+              Palpitations (a feeling of skipped heartbeats, fluttering, or "flip-flops")
+            </p>
+            <ul>
+            <li>Pounding in your chest</li>
+            <li>Dizziness or feeling lightheaded</li>
+            <li>Fainting</li>
+            <li>Shortness of breath</li>
+            <li>Chest pain or tightness</li>
+            <li>Weakness or fatigue (feeling very tired)</li>
+            <li>Anxiety</li>
+            </ul>
+            <hr>
+            <h3>Remedies</h3>
+            <p>If slow heartbeats (bradycardias) don't have a cause that can be corrected, doctors often treat                       them with a pacemaker because there aren't any medications that can reliably speed up the heart.</p>
+            <p>
+              A pacemaker is a small device that's usually implanted near your collarbone. One or more                        electrode-tipped wires run from the pacemaker through your blood vessels to your inner heart.                          If your heart rate is too slow or if it stops, the pacemaker sends out electrical impulses that                                   stimulate your heart to beat at a steady rate.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      id="mod7"
+      class="modal fade"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div
+        class="
+          modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg
+        "
+        >
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Back Pain</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <h3>Symptoms</h3>
+            <p>
+              Back pain can range from a muscle aching to a shooting, burning or stabbing sensation. In                       addition, the pain may radiate down your leg or worsen with bending, twisting, lifting, standing                       or walking.
+            </p>
+            <hr>
+            <h3>Remedies</h3>
+            <ul>
+              <li>Keep Moving. You might not feel like it when you're in pain</li>
+              <li>Stretch and Strengthen. Strong muscles, especially in your abdominal core, help support your                              back</li>
+              <li>Keep Good Posture.</li>
+              <li>Maintain a Healthy Weight.</li>
+              <li>Quit Smoking.</li>
+              <li>Try Ice and Heat.</li>
+              <li>Know Your OTC Medications.</li>
+              <li>Rub on Medicated Creams.</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      id="mod8"
+      class="modal fade"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div
+        class="
+          modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg
+        "
+        >
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Breath Shortness</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <h3>Symptoms</h3>
+            <p>
+              “winded” feeling that persists even after you've been resting for 30 minutes.
+            </p>
+            <ul>
+              <li>swollen ankles and feet.</li>
+              <li>coughing, chills, and elevated body temperature.</li>
+              <li>wheezing or a whistling sound when you inhale and exhale.</li>
+              <li>a high-pitched sound when you breathe, known as a stridor.</li>
+              <li>blue fingertips or lips.</li>
+            </ul>
+            <hr>
+            <h3>Remedies</h3>
+            <ul>
+              <li>Pursed-lip breathing</li>
+              <li>Sitting forward</li>
+              <li>Sitting forward supported by a table</li>
+              <li>Standing with supported back</li>
+              <li>Standing with supported arms</li>
+              <li>Sleeping in a relaxed position</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      id="mod9"
+      class="modal fade"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div
+        class="
+          modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg
+        "
+        >
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Ankle and Wrist Pain</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+           <h3>Symptoms</h3>
+           <ul>
+             <li>Pain</li>
+             <li>Swelling</li>
+             <li>Tenderness and warmth around the injury</li>
+             <li>Feeling a popping or tearing in the wrist</li>
+             <li>Bruising</li>
+             <li>Loss of motion</li>
+             <li>Weakness</li>
+           </ul>
+           <hr>
+           <h3>Remedies</h3>
+           <ul>
+             <li>Rest your wrist for at least 48 hours.</li>
+             <li>Ice your wrist to reduce pain and swelling.</li>
+             <li>Compress the wrist with a bandage.</li>
+             <li>Elevate your wrist above your heart, on a pillow or the back of a chair.</li>
+             <li>Take anti-inflammatory painkillers.</li>
+             <li>Use a cast or splint to keep your wrist immobile.</li>
+           </ul>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      id="mod10"
+      class="modal fade"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div
+        class="
+          modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg
+        "
+        >
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Knee Pain</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <h3>Symptoms</h3>
+            <ul>
+              <li>Swelling and stiffness</li>
+              <li>Redness and warmth to the touch</li>
+              <li>Weakness or instability</li>
+              <li>Popping or crunching noises</li>
+              <li>Inability to fully straighten the knee</li>
+            </ul>
+            <hr>
+            <h3>Remedies</h3>
+            <ul>
+              <li>Medications</li>
+              <li>Therapy</li>
+              <li>Surgery</li>
+              <li>Injections</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      id="mod11"
+      class="modal fade"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div
+        class="
+          modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg
+        "
+        >
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Pimples</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <h3>Symptoms</h3>
+            <ul>
+              <li>Whiteheads (closed plugged pores)</li>
+              <li>Blackheads (open plugged pores)</li>
+              <li>Small red, tender bumps (papules)</li>
+              <li>Pimples (pustules), which are papules with pus at their tips</li>
+              <li>Large, solid, painful lumps under the skin (nodules)</li>
+              <li>Painful, pus-filled lumps under the skin (cystic lesions)</li>
+            </ul>
+            <hr>
+            <h3>Remedies</h3>
+            <ul>
+              <li>Apply apple cider vinegar.</li>
+              <li>Take a zinc supplement.</li>
+              <li>Make a honey and cinnamon mask.</li>
+              <li>Spot treat with tea tree oil.</li>
+              <li>Apply green tea to your skin.</li>
+              <li>Apply witch hazel.</li>
+              <li>Moisturize with aloe vera.</li>
+              <li>Take a fish oil supplement.</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      id="mod12"
+      class="modal fade"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div
+        class="
+          modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg
+        "
+        >
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Headache</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <h3>Symptoms</h3>
+            <ul>
+              <li>Moderate to severe pain.</li>
+              <li>Nausea or vomiting.</li>
+              <li>Pounding or throbbing pain.</li>
+              <li>Pain that lasts four hours to three days.</li>
+              <li>Sensitivity to light, noise or odors.</li>
+              <li>Stomach upset or abdominal pain.</li>
+            </ul>
+            <hr>
+            <h3>Remedies</h3>
+            <ul>
+              <li>Rest in a quiet, dark room.</li>
+              <li>Hot or cold compresses to your head or neck.</li>
+              <li>Massage and small amounts of caffeine.</li>
+              <li>Over-the-counter medications such as ibuprofen (Advil, Motrin IB, others), acetaminophen                                 (Tylenol, others) and aspirin.</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- .............................................................modals ends here...................................................... -->
+    
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
